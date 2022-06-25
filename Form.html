@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<span style="color:crimson ;text-align:left; font-size:larger borde"><u><b><i>Registration Form</i></b></u>
+
+</span>
+
+<br><br>
+<body>
+    <form action="/action.php">
+
+        <input type="text" placeholder="Enter username:">
+        <br><br>
+        <input type="password" placeholder="Enter Password:">
+        <br> 
+
+
+                                  <!-- Radio Buttons -->
+        
+        <!-- IT MEANS:  backend me information jayegi ki  aapne class me choose kiya  class XI. & & backend me value jayegi-->
+         <!-- user ko value nahi dikhegi but jab press karenge to backend me vo value jayegi -->
+       <h5>→Select Class:</h5>
+      <label for="101">
+        <input type="radio" value="Class XI" name="class" id="101">Class XI 
+      </label>
+
+      <br>
+
+       <label for="102">
+        <input type="radio" value="Class XI" name="class" id="102">Class XII
+       </label> 
+
+        <!-- IT MEANS:  backend me information jayegi ki  aapne class me choose kiya  class XII -->
+     
+
+                                    <!-- Checkboxes -->
+
+
+     <h5>→Select Your Fav. Subject!!</h5>
+
+
+     <label for="math">
+        <input type="checkbox" value="math" name="subject" id="101">Math
+     </label>
+
+     <br>
+
+     <label for="phy">
+        <input type="checkbox" value="phy" name="subject" id="102">Physics
+     </label>
+
+     <br>
+
+     <label for="chem">
+        <input type="checkbox" value="chem" name="subject" id="103">Chemistry
+     </label>
+
+     <br>
+
+     <label for="eng">
+        <input type="checkbox" value="eng" name="subject" id="104">English
+     </label>
+
+     <br> 
+    
+
+
+
+                                    <!-- Select -->     
+
+     <h5>→Select your city:</h5>
+     <select name="city" id="900">
+     <option value="Delhi">Delhi</option>
+     <option value="Surat">Surat</option>
+     <option value="Rajkot">Rajkot</option>
+     <option value="Ahemdabad">Ahemdabad</option>
+
+     </select>
+
+                                     <!--SUBMIT -->
+<br><br>
+<input type="submit" value="submit">
+
+
+
+
+<br><br><br><br>
+                                    <!--TEXTAREA -->
+
+
+       <!-- This tag named textarea is used to take some text or we can say some type of info from the user which is accessing the website. -->
+
+     <textarea name="Feedback" id="201" cols="50" rows="10" placeholder="Please give us your Valuable Feedback"></textarea>
+
+<br><br>
+
+
+    </form>
+
+
+
+
+</body>
+</html>
